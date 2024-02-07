@@ -1,0 +1,13 @@
+{
+  "name": "palworld",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
