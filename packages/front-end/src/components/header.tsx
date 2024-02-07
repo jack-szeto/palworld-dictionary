@@ -21,6 +21,10 @@ export const routes: Route[] = [
   {
     label: "Breedings",
     href: "/breedings",
+  },
+  {
+    label: "Affixes",
+    href: "/affixes",
   }
 ];
 
@@ -40,7 +44,7 @@ export function Header() {
             />
             <Typography variant="h3">Dictionary</Typography>
           </Link>
-          <nav className="flex items-center gap-4">
+          <nav className="flex items-center gap-6">
             {routes.map((route) => (
               <Link
                 key={route.href}
