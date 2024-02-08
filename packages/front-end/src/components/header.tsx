@@ -15,8 +15,8 @@ export type Route = {
 };
 export const routes: Route[] = [
   {
-    label: "Pals",
-    href: "/pals",
+    label: "Paldeck",
+    href: "/paldeck",
   },
   {
     label: "Breedings",
@@ -25,7 +25,7 @@ export const routes: Route[] = [
   {
     label: "Affixes",
     href: "/affixes",
-  }
+  },
 ];
 
 export function Header() {

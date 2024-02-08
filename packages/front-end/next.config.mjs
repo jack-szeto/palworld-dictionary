@@ -4,7 +4,14 @@ const nextConfig = {
     API_URL: process.env.API_URL,
   },
   images: {
-    domains: ["localhost"],
+    remotePatterns: [
+      {
+        protocol: "http",
+        hostname: "localhost",
+        port: "3300",
+        pathname: "**",
+      },
+    ],
   },
 };
 
